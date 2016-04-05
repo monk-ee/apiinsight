@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "apiinsight": {
+      "properties": {
+        "headers":    {
+          "type": "string"  },
+        "url":     {
+          "type": "string",
+          "index":  "not_analyzed"
+        },
+        "elapsed":  {
+          "type":   "double"
+        },
+        "roundtrip":  {
+          "type":   "double"
+        },
+        "status":  {
+          "type":   "integer"
+        },
+        "timestamp":  {
+          "type":   "date"
+        }
+      }
+    }
+  }
+}
