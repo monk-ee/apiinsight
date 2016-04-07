@@ -14,11 +14,11 @@ resource_owner_secret = ''
 elasticsearch_url = 'search-apiinsight-kb6v2fx4mflhwi3bruxy5fihfq.us-east-1.es.amazonaws.com'
 
 url = {}
-url['site'] = 'http://api.softwareproduct.com/'
+url['site'] = 'http://api.softwareproduct.com'
 url['site_defaults'] = 'http://api.softwareproduct.com/defaults'
 url['site_configuration'] = 'http://api.softwareproduct.com/configuration'
 url['site_service_categories'] = 'http://api.softwareproduct.com/service_categories'
-url['site_services'] = 'http://papi.softwareproduct.com/services'
+url['site_services'] = 'http://api.softwareproduct.com/services'
 url['site_employees'] = 'http://api.softwareproduct.com/employees'
 
 awsauth = AWS4Auth(os.environ['AWS_ACCESS_KEY_ID'], os.environ['AWS_SECRET_ACCESS_KEY'], 'us-east-1', 'es', 
